@@ -36,5 +36,26 @@ document.querySelectorAll("#list .item")[2].style.color = "blue";
 
 document.querySelector("li a").style.color = "Lime";
 
+// To change the visibility of button in html using css
+
+// document.querySelector("button").classList;      // Give all the class attached with all the buttons 
+ 
+   document.querySelector("button").classList.add("invisible"); 
+   document.querySelector("button").classList.remove("invisible");
+   document.querySelector("button").classList.toggle("invisible");
+   document.querySelector("button").classList.toggle("invisible");
+
+   // to make the title font size huge 
+
+   document.querySelector("#title").classList.add("size");
+
+   // innerHTML vs textContent 
+
+      document.querySelector("h1").innerHTML = "Hello";              // Change everything inside h1 tag
+      document.querySelector("h1").textContent = "Good Bye";         // Change only the Text
+      document.querySelector("h1").innerHTML = "<em>Good Bye</em>";  // Change everything inside h1 tag
+
+
+
 
 

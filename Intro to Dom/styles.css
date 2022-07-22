@@ -1,0 +1,9 @@
+.invisible{
+    visibility: hidden;
+}
+
+.size{
+    font-size: 4rem;
+    color: blueviolet;
+    font-weight: bold;
+}
